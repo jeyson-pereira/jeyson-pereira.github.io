@@ -9,7 +9,7 @@ export default function Navbar() {
   }
 
   return (
-    <header className="bg-gray-800 top-0 z-10 md:sticky">
+    <header className="bg-gray-800 top-0 z-20 md:sticky">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <div className="title-font font-medium text-white mb-4 md:mb-0">
           <div
