@@ -1,21 +1,5 @@
 export const projects = [
   {
-    title: 'MatrixJS',
-    subtitle: 'Matrix Calculator',
-    description:
-      'Academic project developed to solve basic operations (Addition, Subtraction, Multiplication) between one or two mathematical matrices using JavaScript.',
-    image: './assets/img/matrix_js.png',
-    link: 'https://jeyson-pereira.github.io/MatrixJS/'
-  },
-  {
-    title: 'PokédexVue',
-    subtitle: 'Vue + PokeAPI',
-    description:
-      'Academic project to know and learn new technologies, in this specific case Vue.js consuming a REST API. You can search a pokémon and see more information about him.',
-    image: './assets/img/pokedex_vue.png',
-    link: 'https://pkmn-app.vercel.app/'
-  },
-  {
     title: 'StackMovies',
     subtitle: 'React Native',
     description:
@@ -30,6 +14,22 @@ export const projects = [
       'Android App developed on React Native as graduation project. It allows you to manage and control your produtcs inventory, keep a record of expenses and sales which can be saved with geolocation.',
     image: './assets/img/gestion_digital.png',
     link: 'https://github.com/jeyson-pereira/GestionDigital'
+  },
+  {
+    title: 'MatrixJS',
+    subtitle: 'Matrix Calculator',
+    description:
+      'Academic project developed to solve basic operations (Addition, Subtraction, Multiplication) between one or two mathematical matrices using JavaScript.',
+    image: './assets/img/matrix_js.png',
+    link: 'https://jeyson-pereira.github.io/MatrixJS/'
+  },
+  {
+    title: 'PokédexVue',
+    subtitle: 'Vue + PokeAPI',
+    description:
+      'Academic project to know and learn new technologies, in this specific case Vue.js consuming a REST API. You can search a pokémon and see more information about him.',
+    image: './assets/img/pokedex_vue.png',
+    link: 'https://pkmn-app.vercel.app/'
   }
 ]
 
