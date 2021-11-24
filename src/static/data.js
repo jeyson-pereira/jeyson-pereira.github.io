@@ -71,8 +71,10 @@ export const skills = [
 export const phrases = [
   'programming 💻',
   1000,
-  'clean code 💚',
+  'front-end 👨‍💻',
   1000,
   'mobile apps 📱',
+  1000,
+  'clean code 💚',
   1000
 ]
