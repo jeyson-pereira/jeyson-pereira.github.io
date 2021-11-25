@@ -1,5 +1,5 @@
 import React from 'react'
-import { MailIcon } from '@heroicons/react/solid'
+import { MailIcon, HeartIcon } from '@heroicons/react/solid'
 import { SocialIcon } from 'react-social-icons'
 
 export default function Contact() {
@@ -36,6 +36,10 @@ export default function Contact() {
             fgColor="white"
             target="_blank"
           />
+        </div>
+        <div className="items-center select-none flex justify-center">
+          <p>Made with </p>
+          <HeartIcon className="h-6 w-6 ml-2 text-green-600" />
         </div>
       </div>
     </section>
