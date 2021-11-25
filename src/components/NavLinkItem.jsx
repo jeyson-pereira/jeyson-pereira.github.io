@@ -3,8 +3,9 @@ import { Link } from 'react-scroll'
 
 export default function NavLinkItem(props) {
   return (
-    <div className="mr-5 hover:text-white select-none cursor-pointer">
+    <div className="block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4 select-none cursor-pointer">
       <Link
+        className="flex"
         activeClass="active"
         to={props.section}
         spy={true}
