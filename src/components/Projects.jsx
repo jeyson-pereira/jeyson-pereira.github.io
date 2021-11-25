@@ -36,12 +36,6 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
-                  {project.repository !== undefined && (
-                    <div
-                      onClick={() => window.open(project.repository, '_blank')}>
-                      <i className="flex-shrink-0 mr-4 text-2xl devicon-github-plain text-white hover:text-green-600 cursor-pointer" />
-                    </div>
-                  )}
                 </div>
               </div>
             </a>
