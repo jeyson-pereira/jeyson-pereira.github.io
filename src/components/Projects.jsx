@@ -1,5 +1,6 @@
-import { CodeIcon } from '@heroicons/react/solid'
 import React from 'react'
+import { CodeIcon } from '@heroicons/react/solid'
+
 import { projects } from '../static/data'
 
 export default function Projects() {
@@ -19,7 +20,7 @@ export default function Projects() {
               href={project.link}
               target="_blank"
               rel="noreferrer"
-              key={project.image}
+              key={project.title}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
                 <img
@@ -35,6 +36,12 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  {project.repository !== undefined && (
+                    <div
+                      onClick={() => window.open(project.repository, '_blank')}>
+                      <i className="flex-shrink-0 mr-4 text-2xl devicon-github-plain text-white hover:text-green-600 cursor-pointer" />
+                    </div>
+                  )}
                 </div>
               </div>
             </a>
